@@ -1,3 +1,39 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+    padding: 1px 2em
+}
+
 .header .content {
 
 }
