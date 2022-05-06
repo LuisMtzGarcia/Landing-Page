@@ -4,6 +4,7 @@
 
 body {
     display: flex;
+    margin: 0px;
     flex-direction: column;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -16,6 +17,30 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 5em 7em;
+    flex: 1;
+}
+
+.text, .content .image {
+    max-width: 50%;
+    height: fit-content;
+}
+
+.content .image {
+    height: auto;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .banner {
