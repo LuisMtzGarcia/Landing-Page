@@ -1,0 +1,28 @@
+.header .content {
+
+}
+
+.content .text {
+
+}
+
+.main {
+
+}
+
+.subtext {
+
+}
+
+/* The first button */
+.text .signup {
+
+}
+
+.images {
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100px;
+    height: auto;
+}
