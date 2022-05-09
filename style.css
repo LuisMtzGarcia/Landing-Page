@@ -24,8 +24,7 @@ body {
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
     max-width: 80%;
     flex: 1;
 }
