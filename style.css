@@ -35,10 +35,10 @@ body {
 
 .text {
     max-width: 50%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    flex: 1;
 }
 
 .content .image {
@@ -50,6 +50,7 @@ body {
     align-items: center;
     color: white;
     flex-shrink: 1;
+
 }
 
 .banner {
