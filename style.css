@@ -1,5 +1,7 @@
 * {
+    /*
     border: 1px solid red;
+    */
 }
 
 body {
@@ -14,7 +16,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1em;
+    gap: 4em;
+    padding-bottom: 4em;
 }
 
 .header, .footer {
@@ -27,6 +30,7 @@ body {
     justify-content: space-between;
     max-width: 80%;
     flex: 1;
+    gap: 2em;
 }
 
 .text {
@@ -45,6 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    flex-shrink: 1;
 }
 
 .banner {
@@ -53,6 +58,7 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 80%;
+    padding: 1em;
 }
 
 .logo {
@@ -68,14 +74,19 @@ body {
     color: #F9FAF8;
 }
 
+button, .action-block {
+    background-color: #3882F6;
+}
+
 button {
     border-radius: 5px;
     font-weight: bold;
     padding: 5px 20px;
+    border: none;
 }
 
-button, .action-block {
-    background-color: #3882F6;
+button:active {
+    background-color: #163261;
 }
 
 a {
