@@ -85,6 +85,10 @@ button {
     border: none;
 }
 
+.action-block button {
+    border: 1px solid white;
+}
+
 button:active {
     background-color: #163261;
 }
