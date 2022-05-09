@@ -12,6 +12,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -23,21 +24,23 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 100%;
+    max-width: 80%;
     padding: 5em 7em;
     flex: 1;
 }
 
-.text, .content .image {
+.text {
     max-width: 50%;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 .content .image {
     height: auto;
-    width: 50%;
     background-color: grey;
     display: flex;
+    flex: 0;
     justify-content: center;
     align-items: center;
     color: white;
@@ -48,6 +51,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    max-width: 80%;
 }
 
 .logo {
@@ -63,6 +67,10 @@ body {
     color: #F9FAF8;
 }
 
+button, .action-block {
+    background-color: #3882F6;
+}
+
 a {
     text-decoration: none;
 }
@@ -75,7 +83,6 @@ a, .subtext {
 .links {
     display: flex;
     gap: 2em;
-    padding: 1px 2em
 }
 
 .images {
