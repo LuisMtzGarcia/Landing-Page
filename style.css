@@ -67,6 +67,12 @@ body {
     color: #F9FAF8;
 }
 
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
 button, .action-block {
     background-color: #3882F6;
 }
@@ -75,7 +81,7 @@ a {
     text-decoration: none;
 }
 
-a, .subtext {
+a, .subtext, button {
     color: #E5E7EB;
     font-size: 18px;
 }
