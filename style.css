@@ -12,6 +12,9 @@ body {
     gap: 2em;
 }
 
+.header, .information, .quote-block, .action-block {
+}
+
 a {
     text-decoration: none;
 }
@@ -155,6 +158,21 @@ button:active {
 
 /* Quote block */
 
+.quote-block {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4em;
+}
+
+.quote-text {
+    font: 36px light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 80%;
+}
 
 /* Action call block */
 .action-block button {
