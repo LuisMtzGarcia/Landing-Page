@@ -25,7 +25,7 @@ a, .subtext, button {
     background-color: #1F2937;
 }
 
-button, .action-block {
+button, .call-block {
     background-color: #3882F6;
 }
 
@@ -178,6 +178,34 @@ button:active {
 }
 
 /* Action call block */
+
+.action-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-block {
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+    border-radius: 10px;
+}
+
+.call-header {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 2px;
+}
+
+.call-subtext {
+    font-size: 15px;
+}
+
 .action-block button {
     border: 1px solid white;
+    align-self: center;
+    max-height: 30px;
 }
