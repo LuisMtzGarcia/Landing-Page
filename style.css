@@ -209,3 +209,13 @@ button:active {
     align-self: center;
     max-height: 30px;
 }
+
+/* Footer block */
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
