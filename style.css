@@ -9,10 +9,7 @@ body {
     margin: 0px;
     flex-direction: column;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    gap: 2em;
-}
-
-.header, .information, .quote-block, .action-block {
+    gap: 4em;
 }
 
 a {
@@ -164,14 +161,20 @@ button:active {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 4em;
+    padding: 8em 12em;
+    gap: 2em;
 }
 
 .quote-text {
-    font: 36px light;
+    font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    max-width: 80%;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
 }
 
 /* Action call block */
